@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/kong_mono/Downloads/BangkokUnitrade/bangkokUnitrade/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/Users/kong_mono/Downloads/BangkokUnitrade/bangkokUnitrade/build/intermediates/pre-dexed/debug/android-query-full.0.25.10-b188ecc3f0df579ac329bf17aad898325a04814d.jar"
+        jar="/Users/kong_mono/Downloads/BangkokUnitrade/bangkokUnitrade/libs/android-query-full.0.25.10.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="646ad6432a4da6a827e74ce64149c719ce7e86eb"/>
+    <item
+        dex="/Users/kong_mono/Downloads/BangkokUnitrade/bangkokUnitrade/build/intermediates/pre-dexed/debug/classes-ec66522feef0a72eb3af4c33e585f0eed87786b4.jar"
+        jar="/Users/kong_mono/Downloads/BangkokUnitrade/bangkokUnitrade/build/intermediates/exploded-aar/BangkokUnitrade/library_BubbleEditText/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1841486a533e91e0d0998044ecd1410b55a7a28a"/>
+    <item
+        dex="/Users/kong_mono/Downloads/BangkokUnitrade/bangkokUnitrade/build/intermediates/pre-dexed/debug/classes-7893e8b7809bd07269b0ffe72240a4d6c398512d.jar"
+        jar="/Users/kong_mono/Downloads/BangkokUnitrade/bangkokUnitrade/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49"/>
+    <item
+        dex="/Users/kong_mono/Downloads/BangkokUnitrade/bangkokUnitrade/build/intermediates/pre-dexed/debug/crashlytics-6212fb87f61f16321a3e076abb160c4d9c8d7422.jar"
+        jar="/Users/kong_mono/Downloads/BangkokUnitrade/bangkokUnitrade/libs/crashlytics.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b8189e9eef2f07fae743e05d7fe7e69daebe98d1"/>
+
+</pre-dex-items>

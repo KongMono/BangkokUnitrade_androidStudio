@@ -1,0 +1,153 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/textheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="รวมราคา"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textpriceNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="x"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textpricetag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="บาท"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_setting" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <com.codefriday.bangkokunitrade.util.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="รายการ"
+                    android:textSize="20sp"
+                    geekui:customTypeface="fonts/PSLKittithadaProBold.otf" />
+
+                <com.codefriday.bangkokunitrade.util.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="320dp"
+                    android:text="จำนวน"
+                    android:textSize="20sp"
+                    geekui:customTypeface="fonts/PSLKittithadaProBold.otf" />
+
+                <com.codefriday.bangkokunitrade.util.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:text="ราคาต่อหน่วย"
+                    android:textSize="20sp"
+                    geekui:customTypeface="fonts/PSLKittithadaProBold.otf" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_setting" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="300dp" >
+
+                <LinearLayout
+                    android:id="@+id/layoutTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <EditText
+                    android:id="@+id/editSearch"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:ems="10"
+                    android:hint="Search Implant"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <ListView
+                    android:id="@+id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp" >
+                </ListView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/btnQuotate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ขอใบเสนอราคา" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

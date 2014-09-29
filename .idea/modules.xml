@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BangkokUnitrade.iml" filepath="$PROJECT_DIR$/BangkokUnitrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bangkokUnitrade/bangkokUnitrade.iml" filepath="$PROJECT_DIR$/bangkokUnitrade/bangkokUnitrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_BubbleEditText/library_BubbleEditText.iml" filepath="$PROJECT_DIR$/library_BubbleEditText/library_BubbleEditText.iml" />
+    </modules>
+  </component>
+</project>
+

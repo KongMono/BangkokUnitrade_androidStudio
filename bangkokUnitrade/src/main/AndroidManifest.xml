@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codefriday.bangkokunitrade"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.codefriday.bangkokunitrade.util.UIApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon_bkk"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/BKKTheme" >
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.ListSaleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.ListProductActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.SetMasterImplantActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.SetcaseImplantActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.SetcaseDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.CheckcaseImplantActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.ListcheckCaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.QuotateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.ListQuotateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.ReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.ListReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.CatalogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.StatusCaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.ShutCaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.ShutCaseListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.ShutCaseDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.OrdersSetUpperLowerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.TramuaListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.TramuaSubListDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.OrdersListChooseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.TramuaAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.BiomaterialsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codefriday.bangkokunitrade.activity.TramuaMasterListActivity"
+            android:screenOrientation="portrait" />
+
+         <meta-data android:name="com.crashlytics.ApiKey" android:value="5ef9a380837fccd86dc5d4d032fab3041b1eddec"/>
+        
+    </application>
+
+</manifest>
